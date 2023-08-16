@@ -1,0 +1,33 @@
+1944  cd prueba_checkpoint
+ 1945  git remote add https://github.com/Math92/Checkpoint-Mathias-santos.git
+ 1946  git remote -v
+ 1947  git remote add origin https://github.com/Math92/Checkpoint-Mathias-santos.git
+ 1948  git remote -v
+ 1949  git remote remove https://github.com/Math92/Checkpoint-Mathias-santos.git
+ 1950  git remote remove main
+ 1951  git remote -v
+ 1952  git init
+ 1953  git clone https://github.com/Math92/Checkpoint-Mathias-santos.git
+ 1954  cd Checkpoint-Mathias-santos
+ 1955  touch main.js index.html
+ 1956  git add main.js index.html
+ 1957  git commit -m "commit 0 MathiasSantos - Creación de archivos main.js e index.html"
+ 1958  git add main.js index.html
+ 1959  git commit -m "commit 01 MathiasSantos - Creación de archivos main.js e index.html"
+ 1960  git push origin main
+ 1961  git checkout -b feature
+ 1962  mkdir Hardware Software SeguridadInformatica
+ 1963  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+ 1964  git add .
+ 1965  git commit -m "commit 02 de MathiasSantos - Estructura de carpetas y archivos en rama feature"
+ 1966  git push origin feature
+ 1967  git checkout main
+ 1968  git mv main.js resumenHardware.txt
+ 1969  git mv index.html resumenSoftware.txt
+ 1970  git add comandos.txt
+ 1971  touch comandos.txt
+ 1972  history 30
+ 1973  git add .
+ 1974  git commit -m "commit 03  MathiasSantos- Agregar lista de comandos"
+ 1975  git push origin main
+ 1976  history 60
